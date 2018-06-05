@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NiftyFolder - Serge Theme</title>
+	<link rel="stylesheet" type="text/css" href="theme/css/style.css">
+	<meta property="og:site_name" content="" />
+	<meta property="og:type" content="article" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:url" content="" />
+	<meta property="og:title" content="" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="" />
+	<meta name="theme-color" content="#ffffff">
+
+</head>
+<body class="menu-closed">
+
+	<div class="alert alert-success">
+		Big success!
+	</div>
+
+	<div class="cover menu-toggle"><!-- content cover on menu open --></div>
+
+	<div class="header-container">
+		<div class="header">
+			<div class="logo">
+				<a href="#">
+					<img src="theme/img/logo.png">
+				</a>
+			</div>
+			<h2 class="title">
+				<a href="#">Site title</a>
+			</h2>
+		</div>
+	</div><!-- /.header-container -->
+
+	<div class="main-container">
+		<div class="main">
+
+			<nav class="menu">
+				<div class="close-button menu-toggle">&#x2715;</div>
+				<ul>
+					<li>
+						<span class="folder">Lorem ipsum</span>
+						<ul>
+							<li>
+								<a href="#">Dolor sit amet</a>
+							</li>
+							<li>
+								<a href="#">Consectetur adipiscing elit</a>
+							</li>
+							<li>
+								<a href="#" class="download">Integer maximus</a>
+							</li>
+							<li>
+								<a href="#">Rutrum</a>
+							</li>
+							<li>
+								<a href="#">Velit dignissim</a>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						Tincidunt
+						<ul>
+							<li>
+								<a href="#">Morbi vel porta nisi</a>
+							</li>
+							<li>
+								<a href="#">Sed non ipsum</a>
+							</li>
+							<li>
+								<a href="#">At felis hendrerit</a>
+							</li>
+							<li>
+								<a href="#">Scelerisque</a>
+							</li>
+							<li>
+								<a href="#">Eu faucibus neque</a>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="#">Aenean convallis</a>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="menu-button menu-toggle">Menu</div>
+
+			<div class="content">
+				[ Content and styling will be inline coming from Google Doc. ]
+			</div><!-- /.content -->
+
+		</div>
+	</div><!-- /.main-container -->
+
+	<div class="footer-container">
+		<footer>
+			<div class="col">
+				<p>
+					<form action="" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						<label for="mce-EMAIL">Subscribe to our newsletter:</label>
+						<input type="email" value="" name="EMAIL" class="required email">
+						<input type="submit" value="Inschrijven" name="subscribe">
+					</form>
+				</p>
+			</div>
+			<div class="col">
+				<p>
+					Follow us on:
+				</p>
+					<a href="#" class="link-social">
+						<span class="icon-youtube"></span> Youtube
+					</a>
+					<a href="#" class="link-social">
+						<span class="icon-facebook"></span> Facebook
+					</a>
+					<a href="#" class="link-social">
+						<span class="icon-twitter"></span> Twitter
+					</a>
+					<a href="#" class="link-social">
+						<span class="icon-linkedin"></span> Linkedin
+					</a>
+					<a href="#" class="link-social">
+						<span class="icon-instagram"></span> Instagram
+					</a>
+				</p>
+			</div>
+			<div class="col">
+				<p>
+					<a class="credits" href="https://www.niftyfolder.com">
+						<img src="theme/img/nifty_footer.png"> Created with NiftyFolder</p>
+					</a>
+			</div>
+		</footer>
+	</div><!-- /.content-container -->
+
+	<script type="text/javascript">
+		let toggles = document.getElementsByClassName('menu-toggle');
+		let body = document.getElementsByTagName('body')[0];
+
+		// Menu
+		for (var i = 0; i < toggles.length; i++) {
+ 			toggles[i].onclick = function(){
+				if(body.className === 'menu-open'){
+					body.className = 'menu-closed';
+				} else {
+					body.className = 'menu-open';
+				}
+			}
+		}
+	</script>
+
+</body>
+</html>
