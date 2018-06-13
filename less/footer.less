@@ -23,46 +23,14 @@ footer {
 		}
 	}
 
-	label {
-		margin: 0 0 1em 0;
-		display: block;
-	}
-
-	input[type=text],
-	input[type=email],
-	input[type=tel],
-	input[type=url],
-	input[type=search],
-	input[type=password] {
-		height: 32px;
-		line-height: 32px;
-		padding: 0 8px;
-		border: 1px solid #ccc;
-
-		width: 100%;
-		margin: 0 0 0.25em 0;
-
-		&::placeholder {
-			color: #ccc;
-			opacity: 1;
-		}
-
-		@media (min-width: 1120px) {
-			width: 200px;
-			margin: 0 0 1em 0;
-		}
-	}
-
-	button,
-	input[type=button],
-	input[type=submit] {
+	.button {
 		border: none;
 		background-color: @color-menu;
 		color: @background-color-body;
-		height: 32px;
-		line-height: 32px;
-		padding: 0 16px;
-		margin: 0 0 1em 0;
+		display: inline-block;
+		text-align: center;
+		padding: 8px 24px;
+		border-radius: 4px;
 		cursor: pointer;
 
 		width: 100%;

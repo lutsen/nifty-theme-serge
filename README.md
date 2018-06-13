@@ -11,12 +11,17 @@ Logo
 The *logo.png* image is the NiftyFolder logo displayed in the template. You can replace this with another image. The image size is 240 x 240 pixels, and it is displayed as 120 x 120 pixels.
 
 
+Header image
+------------
+
+If you set the header image URL in the config.php file of your NiftyFolder website, this image is displayed in the header. The optimal image size is 1280 x 500 pixels.
+
+
 Variables
 ---------
 
 In the in *variables.less* file you can change the colors of different template elements.  
-*@svg-color* is the color of the SVG social icons in the footer, and should not be preceded by a #.  
-*@background-image-header* is the url of the bacjkground image of the header.
+*@svg-color* is the color of the SVG social icons in the footer, and should not be preceded by a #.
 
 
 LESS
